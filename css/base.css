@@ -67,33 +67,6 @@ video {
 }
 
 
-
-.message-intro {
-  display: table-row;
-  line-height: 1.5em;
-  font-size: 2em;
-  white-space: nowrap;
-  margin-bottom: 2em;
-  width: 700px;
-}
-
-.message-intro span.message-line{
-  display:table-cell;
-  width:10%
-}
-
-
-
-
-
-.message-intro p{font-size:inherit;overflow:hidden; display:table-cell;vertical-align:middle;padding-bottom:30px;color:#fff;font-size:22px;font-weight:400; letter-spacing: 2px}
-
-.message-intro span.message-line{padding:0 10px}
-.message-intro span.message-line:first-child{padding:0 30px 30px 0}
-.message-intro span.message-line:last-child{padding:0 0 30px 30px}
-.message-intro span.message-line:after{display:inline-block;width:100%;content:".";font-size:0;color:transparent;height:1px;background:#f7ebdf;vertical-align:middle;position:relative;top:0}
-
-
 .typed-cursor {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 0.5s;
