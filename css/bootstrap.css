@@ -6804,7 +6804,7 @@ button.close {
 /*Editing Bootstrap Css*/
 .transparent{  
 
-  color: #FFF;
+  color: #f7ebdf;
   background-color: rgba(255, 255, 255, 0);
   height: auto; 
   padding: 6px 12px; 
@@ -6812,15 +6812,34 @@ button.close {
   padding-right: 1.75rem;
   padding-bottom: 0.9375rem;
   padding-left: 1.75rem;
-    border: 1px solid #FFF;
+  border: 1px solid #f7ebdf;
+  
+
 }
 
 .transparent:hover{  
 
- background: #65464c;
+  background: #65464c;
   border-color: #65464c;
   text-decoration: none;
+  border-radius: 4px;
+  color: #f7ebdf;
 }
 
+.btn-transparent {
+ color: #f7ebdf;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #f7ebdf;
+    padding: 12px 18px;
+    width: 240px;
+      border-radius: 3px;
+}
+
+.btn-transparent:hover {
+  background: #65464c;
+  border-color: #f7ebdf;
+  color: #f7ebdf;
+
+}
 
   
