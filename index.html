@@ -7,8 +7,10 @@
     	<title>Programadores Chile</title>
     	<link rel="shortcut icon" href="media/images/favicon.png">
     	<link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/animate.css">
     	<link rel="stylesheet" href="css/bootstrap.css">
-    	<link rel="stylesheet" href="css/animate.css">
+    	
+        <link rel="stylesheet" href="css/scroll.css">
     </head>
     <body>
 
@@ -19,27 +21,13 @@
 
         <!-- Header -->
         <div id="header">
-            <div id="top">
-
-
+        
             <div id="header-content">
-
-
-     <!--  <div class="col-md-12 ">
-      <button class="form form-control transparent" role="button">Quiero <span class="element"></span></button>
-  </div> -->
-
-  <div class="col-sm-12">
-
-        <div class="text-center">
-             <div class="message-intro">
-        <span class="message-line"></span>
-        <span class="message-line"></span>
-</div>  
-        </div>
-    </div>
-       
+      
   <div class="row">
+    <div class="headerText">
+        <h1 id="textMessage" class=" animated fadeInLeft">la mejor comunidad de hackers Chilenos</h1>
+    </div>
 
        
     <div class="col-sm-12">
@@ -50,18 +38,66 @@
     </div>
 </div>
 
+<a href="#" class="mouse_scroll">
+
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+        </div>
+</a>
 </div>
 </div>
 <!-- End Header -->
 
-<!-- VideoBackGround -->
-<div id="videoBackground">
+<div id="staff">
+<div class="content">
+    <div class="row">
+        <div>
+        <div class="col-md-4"><div class="text-center"><img src="media/gifs/badge.gif"></div></div>
+        <div class="col-md-4"><div class="text-center"><img src="media/gifs/badge.gif"></div></div>
+        <div class="col-md-4"><div class="text-center"><img src="media/gifs/badge.gif"></div></div>
+        </div>
+
+
 </div>
+    <a href="#" class="mouse_scroll">
+
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+        </div>
+</a>
+
+
+</div>
+
+<!-- VideoBackGround -->
+<div id="homeLand">
+    <div id="videoBG">
+        <div class="video">
+            <video autoplay loop mute>
+                <source src="media/videos/hack.mp4" type="video/mp4" >
+                <source src="" type="video/webm" >
+            </video>
+        </div>
+            <div class="shade">
+            </div>
+        </div>
+</div>
+
+
 <!-- End videoBackground -->
 
 
-<div id="staff">
-</div>
+
 
 <div id="footer">
 </div>
@@ -69,6 +105,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/typed.min.js"></script>
+<script type="text/javascript" src="js/typed.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
+<script >
+    var words = ["forma parte de esta gran experiencia", "nos estamos reuniendo ahora mismo", "la mejor comunidad de hackers chilenos"];
+
+    for (var i = 0 ; i >= words.length; i) 
+    {
+        document.getElementById("textMessage").innerHTML = words[i];
+    }
+</scr
 </body>
 </html>

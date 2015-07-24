@@ -2,15 +2,27 @@
   height: 100%;
   min-height: 840px !important;
   overflow: hidden;
+    position: relative;
+
 }
 
-#homeLand #videoBG {
+#staff {
+  height: 100%;
+  min-height: 900px !important;
+  overflow: hidden;
+    position: relative;
+    background-color: #F5E8DF;
+
+}
+
+#videoBG {
   height: 100%;
   width: 100%;
   position: absolute;
   min-height: 840px !important;
   bottom: 0px;
   top: 0px;
+  position: absolute;
 }
 
 video {
@@ -27,16 +39,18 @@ video {
 }
 
 .video {
-  margin: auto;
   position: absolute;
   z-index: -1;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  width: 1682px;
-  height: auto;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-image: none;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 #homeLand #videoBG .shade {
@@ -49,11 +63,28 @@ video {
 }
 
 
+
 #header {
   background: url(../media/images/header_bg.jpg) bottom center no-repeat;
   min-height: 860px;
   position: relative;
 }
+
+.headerText h1
+{
+  color: #67484e;
+  font-size: 45px;
+  font-weight: 900;
+  margin: 8px 0 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.staff {
+  padding: 75px 0;
+  background: #F5E8DF;
+  overflow: hidden;
+}
+
 
 #header-content
 {
@@ -66,6 +97,8 @@ video {
   text-align: center;
 }
 
+
+/* typed Animation*/
 
 .typed-cursor {
     -webkit-animation-name: blinker;
