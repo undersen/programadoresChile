@@ -26,7 +26,7 @@
       
   <div class="row">
     <div class="headerText">
-        <h1 id="textMessage" class=" animated fadeInLeft">la mejor comunidad de hackers Chilenos</h1>
+        <h1 id="textMessage" ><span id="js-rotating">la mejor comunidad de hackers chilenos, Very Doge, Much Wow, Such Cool</span></h1>
     </div>
 
        
@@ -54,7 +54,7 @@
 <!-- End Header -->
 
 <div id="staff">
-<div class="content">
+<div id="staffContent">
     <div class="row">
         <div>
         <div class="col-md-4"><div class="text-center"><img src="media/gifs/badge.gif"></div></div>
@@ -78,6 +78,7 @@
 
 
 </div>
+</div>
 
 <!-- VideoBackGround -->
 <div id="homeLand">
@@ -85,7 +86,7 @@
         <div class="video">
             <video autoplay loop mute>
                 <source src="media/videos/hack.mp4" type="video/mp4" >
-                <source src="" type="video/webm" >
+                <source src="media/videos/hack.webm" type="video/webm" >
             </video>
         </div>
             <div class="shade">
@@ -107,13 +108,14 @@
 <script type="text/javascript" src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/typed.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
-<script >
-    var words = ["forma parte de esta gran experiencia", "nos estamos reuniendo ahora mismo", "la mejor comunidad de hackers chilenos"];
-
-    for (var i = 0 ; i >= words.length; i) 
-    {
-        document.getElementById("textMessage").innerHTML = words[i];
-    }
-</scr
+<script type="text/javascript" src="js/morphext.min.js"></script>
+<script type="text/javascript">
+$("#js-rotating").Morphext({
+    animation: "bounceInLeft",
+    separator: ",",
+    speed: 4000
+});
+$('#js-rotating').show();
+</script>
 </body>
 </html>
