@@ -78,6 +78,9 @@ video {
   margin: 8px 0 0;
   padding: 0;
   text-transform: uppercase;
+    margin-left: 10%;
+  margin-right: 10%;
+  width: : 5%;
 }
 .staff {
   padding: 75px 0;
@@ -90,7 +93,7 @@ video {
 {
 
   position: absolute;
-  top: 225px;
+  top: 10%;
   left: 1%;
   right: 1%;
   margin: 0 auto;
@@ -142,4 +145,21 @@ video {
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+
+
+
+
+  html, body, #map-canvas {
+        height: 300px;
+        width: 100%
+        margin: 0;
+        padding: 0;
+      }
+
+      #map-canvas
+      {
+
+        
+      }
+
 
